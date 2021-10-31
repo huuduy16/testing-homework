@@ -32,4 +32,12 @@ public class Solution {
         }
         return (int) price;
     }
+
+    public static void main(String[] args) {
+        System.out.println(calCharge(1,5));
+        System.out.println(calCharge(10,20));
+        System.out.println(calCharge(50,5));
+        System.out.println(calCharge(100,5));
+
+    }
 }
